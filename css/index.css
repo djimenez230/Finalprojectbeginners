@@ -1,3 +1,16 @@
-h1 {
-    font-size: 100px;
+/* Make a header with a backdrop of the team o just for the header */
+body {
+    background-color: #ef863d;
+    border: 4px #353535 solid;
+    margin: auto;
+
+}
+nav li{
+    list-style: none;    
+    font-size: 25px;
+    display:inline;
+    position: relative;    
+}
+nav {
+    text-align: center;
 }
