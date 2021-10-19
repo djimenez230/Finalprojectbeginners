@@ -1,16 +1,46 @@
 /* Make a header with a backdrop of the team o just for the header */
 body {
     background-color: #ef863d;
-    border: 4px #353535 solid;
     margin: auto;
+}
+/* header with logo and name */
+header img {
+    height: 150px;
+    width: 200px;
+    padding-bottom: 0%;
+    float: left;
+    margin-left: 0px;
+    
+    
+}
+header h1 {
+    float: left;
+    padding: 0 0 0 0;
+    margin-top: 100px;
+    font-size: 25px;
+    white-space: nowrap;
+    
+
 
 }
-nav li{
-    list-style: none;    
+
+
+nav li {    
     font-size: 25px;
     display:inline;
-    position: relative;    
+    position: relative;   
+    list-style-type: none; 
+    
+
+
 }
 nav {
-    text-align: center;
-}
+    text-align: end;
+    border: 5px solid black;
+    border-radius: 35px;
+    margin: 5px 0px 5px 900px;
+    padding: 20px 20px 20px 20px;
+    word-spacing: 250px;
+    float: left;
+
+    }
