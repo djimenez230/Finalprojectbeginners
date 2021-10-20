@@ -1,46 +1,116 @@
 /* Make a header with a backdrop of the team o just for the header */
+main {
+    background-color: #ef863d;   
+}
 body {
-    background-color: #ef863d;
-    margin: auto;
+    background-color: #35364a;
 }
 /* header with logo and name */
 header img {
     height: 150px;
     width: 200px;
-    padding-bottom: 0%;
     float: left;
     margin-left: 0px;
+    border-radius:30%;
+    margin-top: -200px;
+  
+    
     
     
 }
 header h1 {
     float: left;
     padding: 0 0 0 0;
-    margin-top: 100px;
     font-size: 25px;
-    white-space: nowrap;
-    
-
+    margin-left: 140px;
+    margin-top: -100px;
+    color: #ef863d;
 
 }
 
 
-nav li {    
-    font-size: 25px;
-    display:inline;
-    position: relative;   
-    list-style-type: none; 
+/* nav list */
+main {
     
 
-
 }
-nav {
-    text-align: end;
-    border: 5px solid black;
-    border-radius: 35px;
-    margin: 5px 0px 5px 900px;
-    padding: 20px 20px 20px 20px;
-    word-spacing: 250px;
-    float: left;
+nav li {
+    display: inline;
+    list-style-type: none;
+    text-emphasis: none;
+    }
+    nav {
+        margin-left: 65%;
+    }
+    
+    .button {
+        float: left; 
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+        border: 5px solid;
+        background-color: #fa6800;
+        display: inline;
+        border-radius: 90px;
+        height: 50px;
+        width: 150px;
+        padding: 10px 10px 10px 10px;
+        margin: 5px 2px 5px 0px;
+        
 
     }
+
+    /* end of nav */
+
+    /* link decorations */
+    a:link{
+        text-decoration: none;
+        color: black;
+
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        
+      }
+      
+      a:active {
+        text-decoration: none;
+      }
+    /* end of link decoration */
+
+
+
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 180px;
+    text-align: center;
+    padding-top: 100px
+    
+    
+}
+/* team Photo */
+.team img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: black 4px solid;
+}
+.photo {
+    text-align: center;
+    margin-left: 640px;
+    margin-top: -1px;
+    font-size: 20px;
+    
+}
+/* farewell senior appreciation  */
