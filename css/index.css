@@ -1,64 +1,62 @@
 /* Make a header with a backdrop of the team o just for the header */
-main {
-    background-color: #ef863d;   
-}
 body {
-    background-color: #35364a;
-}
+    background: #1B1D38;
+    background: -webkit-linear-gradient(bottom, #1B1D38, #E9833C);
+    background: -moz-linear-gradient(bottom, #1B1D38, #E9833C);
+    background: linear-gradient(to top, #1B1D38, #E9833C);  
+}   
+
+
 /* header with logo and name */
 header img {
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 130px;
     float: left;
-    margin-left: 0px;
+    margin-left: 50px;
     border-radius:30%;
-    margin-top: -200px;
-  
-    
-    
-    
+    margin-top: -70px;
 }
 header h1 {
     float: left;
-    padding: 0 0 0 0;
-    font-size: 25px;
-    margin-left: 140px;
-    margin-top: -100px;
-    color: #ef863d;
+    padding: 0px 0px 19px 0px;
+    font-size: 19px;
+    margin-left: -20px;
+    margin-top: 0px;
+    
+    color: #1B1D38;
+
 
 }
 
 
 /* nav list */
-main {
-    
-
-}
 nav li {
     display: inline;
     list-style-type: none;
     text-emphasis: none;
     }
     nav {
-        margin-left: 65%;
+        margin-top: 200px;
+        margin-left: 70%;
+
     }
     
     .button {
-        float: left; 
-        font-size: 40px;
+        float: left;     
+        font-size: 30px;
         text-align: center;
         text-decoration: none;
-        border: 5px solid;
+        border: 1px solid;
         background-color: #fa6800;
-        display: inline;
         border-radius: 90px;
-        height: 50px;
-        width: 150px;
-        padding: 10px 10px 10px 10px;
-        margin: 5px 2px 5px 0px;
+        height: 40px;
+        width: 130px;
+        padding: 0px 0px 0px 0px;
+        margin: -40px 10px 0px 0px;
         
 
     }
+    
 
     /* end of nav */
 
@@ -75,6 +73,7 @@ nav li {
       
       a:hover {
         text-decoration: none;
+        color: white
         
       }
       
@@ -84,6 +83,22 @@ nav li {
     /* end of link decoration */
 
 
+/* line split */
+.help {
+    width: 99%;
+    background: rgb(245,200,168);
+    background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
+    padding-top: 100px;
+    border-radius: 15px;
+    position: relative;
+    top: -69px;
+    left: 10px;
+    z-index: -1;
+    
+
+        
+}
+/* end of line */
 
 
 .title {
@@ -91,9 +106,9 @@ nav li {
     text-align: center;
     list-style-type: none;
     text-decoration: none;
-    margin-top: 180px;
+    margin-top: 10px;
     text-align: center;
-    padding-top: 100px
+    padding-top: 10px
     
     
 }
@@ -114,3 +129,62 @@ nav li {
     
 }
 /* farewell senior appreciation  */
+.bye {
+    text-align: center;
+}
+.box {
+    height: 400px;
+    width: 400px;
+    border: solid 2px black;
+    float: left;
+    margin: 5px 99px 5px 68px;
+    background-color: blanchedalmond;
+}
+.seniors {
+    height: 170px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+}
+.last {
+    text-align: center;
+
+}
+ 
+/* workweek schedule */
+.back {
+    height: 300px;
+    width: 95%;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.crow {
+    position: absolute;
+    left: 32.5%;
+    top: 1950px;
+    z-index: 1;
+}
+.box4 {
+    height: 400px;
+    width: 400px;
+    border: solid 2px black;
+    border-radius: 199px;
+    float: left;
+    margin: 55px 99px 5px 650px;
+    background: rgb(250,104,0);
+    background: linear-gradient(175deg, rgba(250,104,0,1) 0%, rgba(27,29,56,1) 95%);
+}
+h4 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.bottom {
+    padding-top: 220px;
+}
