@@ -1,0 +1,108 @@
+/* Make a header with a backdrop of the team o just for the header */
+body {
+    background: #1B1D38;
+    background: -webkit-linear-gradient(bottom, #1B1D38, #E9833C);
+    background: -moz-linear-gradient(bottom, #1B1D38, #E9833C);
+    background: linear-gradient(to top, #1B1D38, #E9833C);  
+}   
+
+
+/* header with logo and name */
+header img {
+    height: 100px;
+    width: 130px;
+    float: left;
+    margin-left: 50px;
+    border-radius:30%;
+    margin-top: -70px;
+}
+header h1 {
+    float: left;
+    padding: 0px 0px 19px 0px;
+    font-size: 19px;
+    margin-left: -20px;
+    margin-top: 0px;
+    
+    color: #1B1D38;
+
+
+}
+
+
+/* nav list */
+nav li {
+    display: inline;
+    list-style-type: none;
+    text-emphasis: none;
+    }
+ nav {
+        margin-top: 200px;
+        margin-left: 70%;
+
+    }
+    
+    .button {
+        float: left;     
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid;
+        background-color: #fa6800;
+        border-radius: 90px;
+        height: 40px;
+        width: 130px;
+        padding: 0px 0px 0px 0px;
+        margin: -40px 10px 0px 0px;
+    }
+    
+
+    /* end of nav */
+
+    /* link decorations */
+    a:link{
+        text-decoration: none;
+        color: black;
+
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        color: white
+        
+      }
+      
+      a:active {
+        text-decoration: none;
+      }
+    /* end of link decoration */
+
+
+/* line split */
+.help {
+    width: 99%;
+    background: rgb(245,200,168);
+    background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
+    padding-top: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: -69px;
+    left: 10px;
+    z-index: -1;
+}
+/* end of line */
+
+/* adding a big white box */
+.box {
+    height: 1920px;
+    width:90%;
+    border: transparent 1px;
+    border-radius: 3px;
+    background-color: blanchedalmond;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
