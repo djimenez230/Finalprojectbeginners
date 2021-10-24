@@ -171,20 +171,20 @@ nav li {
     padding-top: 40px;
 }
 .crow {
-    position: absolute;
-    left: 32.5%;
-    top: 2050px;
     z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
 }
 .box4 {
     height: 400px;
     width: 400px;
     border: solid 2px black;
     border-radius: 199px;
-    float: left;
-    margin: 55px 99px 5px 650px;
     background: rgb(250,104,0);
     background: linear-gradient(175deg, rgba(250,104,0,1) 0%, rgba(27,29,56,1) 95%);
+    float: right;
 }
 h4 {
     text-align: center;
