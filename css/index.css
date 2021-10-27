@@ -9,12 +9,16 @@ body {
 
 /* header with logo and name */
 header img {
-    height: 100px;
-    width: 130px;
+    height: 120px;
+    width: 160px;
     float: left;
     margin-left: 50px;
-    border-radius:30%;
-    margin-top: -70px;
+    margin-top: -84px;
+}
+header img:hover {
+    
+        opacity: .4;
+    
 }
 header h1 {
     float: left;
@@ -22,7 +26,7 @@ header h1 {
     font-size: 19px;
     margin-left: -20px;
     margin-top: 0px;
-    
+    font-family: 'Open Sans', sans-serif;
     color: #1B1D38;
 
 
@@ -43,7 +47,8 @@ nav li {
     
     .button {
         float: left;     
-        font-size: 30px;
+        font-size: 29px;
+        font-family: 'Open Sans', sans-serif;
         text-align: center;
         text-decoration: none;
         border: 1px solid;
@@ -89,7 +94,7 @@ nav li {
     background: rgb(245,200,168);
     background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
     padding-top: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     top: -69px;
     left: 10px;
@@ -102,15 +107,18 @@ nav li {
 
 
 .title {
-    font-size: 35px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     list-style-type: none;
     text-decoration: none;
     margin-top: 10px;
-    text-align: center;
-    padding-top: 10px
-    
-    
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    width: 99%;
+    height: 70px;
+    background: rgb(245,200,168);
+    background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
 }
 /* team Photo */
 .team img {
@@ -123,25 +131,63 @@ nav li {
 }
 .photo {
     text-align: center;
-    margin-left: 640px;
-    margin-top: -1px;
-    font-size: 20px;   
+    margin-left: 610px;
+    margin-top: 0px;
+    font-size: 20px;  
+    font-family: 'Open Sans', sans-serif; 
 }
 /* end of team photo */
+/* Open registation */
+.join {
+    text-align: center;
+    padding-top: 10px;
+
+}
+.box7 {
+    width: 99%;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.need {
+    float: left;
+    height: 50%;
+    margin: 100px 50px 50px 50px;
+    border-radius: 15px;
+    border: 4px #1B1D38 solid;
+}
+.we {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-right: 49px;
+    padding-top: 45px;
+
+}
+.para {
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 100px;
+     
+    
+}
+/* end of registration */
 
 /* farewell senior appreciation  */
 .farewell {
     background: rgb(245,200,168);
     background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
-    height: 60px;
+    height: 70px;
+    border-radius: 15px;
 }
 .bye {
     text-align: center;
+    padding-top: 20px;
 }
 .box {
     height: 400px;
     width: 400px;
     border: solid 2px black;
+    border-radius: 5px;
     float: left;
     margin: 5px 99px 5px 68px;
     background-color: blanchedalmond;
@@ -153,29 +199,28 @@ nav li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
+    border-radius: 5px;
+    padding-top: 20px;
+
 
 }
 .last {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 
 }
- 
-/* workweek schedule */
-.back {
-    height: 300px;
-    width: 95%;
-    background-color: antiquewhite;
-    float: left;
-    margin-left: 40px;
-    margin-top: 50px;
-    padding-top: 40px;
+.lorem {
+    text-align: center;
 }
+ 
+/* crow */
 .crow {
     z-index: 1;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
+    margin-left: -100px;
+    margin-top: -100px;
+
+   
 }
 .box4 {
     height: 400px;
@@ -184,22 +229,33 @@ nav li {
     border-radius: 199px;
     background: rgb(250,104,0);
     background: linear-gradient(175deg, rgba(250,104,0,1) 0%, rgba(27,29,56,1) 95%);
-    float: right;
+    margin-left: 38%;
+    margin-top: 450px;
+
 }
 h4 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 30px;
+    font-family: 'Open Sans', sans-serif; 
 }
 .bottom {
-    padding-top: 220px;
+    
 }
-
+/* end of crow */
+/* music */
 .bop {
     height: 30px;
+    margin-top: 25px;
     margin-bottom: 3px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     color: #fa6800
+    
+}
+.box6 {
+    width: 99%;
+    height: 100px;
+    background-color: #fa6800;
 }

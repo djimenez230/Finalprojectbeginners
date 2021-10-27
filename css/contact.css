@@ -4,7 +4,10 @@ body {
     background: -webkit-linear-gradient(bottom, #1B1D38, #E9833C);
     background: -moz-linear-gradient(bottom, #1B1D38, #E9833C);
     background: linear-gradient(to top, #1B1D38, #E9833C);  
+    margin: 0 0 0 0px;
+    padding: 0 0 0 0px;
 }   
+
 
 
 /* header with logo and name */
@@ -13,7 +16,7 @@ header img {
     width: 130px;
     float: left;
     margin-left: 50px;
-    border-radius:30%;
+    border-radius: 0%;
     margin-top: -70px;
 }
 header h1 {
@@ -28,7 +31,6 @@ header h1 {
 
 }
 
-
 /* nav list */
 nav li {
     display: inline;
@@ -36,7 +38,7 @@ nav li {
     text-emphasis: none;
     }
  nav {
-        margin-top: 200px;
+        margin-top: 70px;
         margin-left: 70%;
 
     }
