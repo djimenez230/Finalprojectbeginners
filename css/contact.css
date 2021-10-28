@@ -131,13 +131,13 @@ h1 {
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; 
-    padding: 18px; 
+    padding: 20px; 
     border: 3px solid #1B1D38;
     border-radius: 5px;
     box-sizing: border-box; 
     margin-top:10px; 
     margin-bottom: 16px;
-    margin-left: 20px;
+    margin-left: 0px;
     resize: vertical;
   }
   
@@ -149,7 +149,7 @@ input[type=text], select, textarea {
     border: solid black;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 670px;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -160,7 +160,7 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 15px;
-    background-color: #f2f2f2;
+    background-color: #E9833C;
     padding: 30px;
     width: 40%;
     margin: 50px;
@@ -188,10 +188,12 @@ footer {
 
 }
 footer .name {
-    margin-left: 39%;
+    margin-left: 42.6%;
     margin-right:0px;
     margin-top: 0px;
-    display: inline;}
+    font-size: 30px;
+    display: inline;
+}
 
 .youtube:hover {
     opacity: .4;
@@ -217,7 +219,7 @@ footer .name {
     display: inline-block;
     list-style-type: none;
     object-position: center;
-    margin-left: 22px;
+    margin-left: 24px;
 }
 
  .social img{
