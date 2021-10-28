@@ -3,7 +3,7 @@ body {
     background: #1B1D38;
     background: -webkit-linear-gradient(bottom, #1B1D38, #E9833C);
     background: -moz-linear-gradient(bottom, #1B1D38, #E9833C);
-    background: linear-gradient(to top, #1B1D38, #E9833C);  
+    background: linear-gradient(to top, #1B1D38, #E9833C);
 }   
 
 
@@ -26,13 +26,9 @@ header h1 {
     font-size: 19px;
     margin-left: -20px;
     margin-top: 0px;
-    font-family: 'Open Sans', sans-serif;
     color: #1B1D38;
-
-
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
-
-
 /* nav list */
 nav li {
     display: inline;
@@ -42,13 +38,10 @@ nav li {
     nav {
         margin-top: 200px;
         margin-left: 70%;
-
     }
-    
     .button {
         float: left;     
         font-size: 29px;
-        font-family: 'Open Sans', sans-serif;
         text-align: center;
         text-decoration: none;
         border: 1px solid;
@@ -58,13 +51,9 @@ nav li {
         width: 130px;
         padding: 0px 0px 0px 0px;
         margin: -40px 10px 0px 0px;
-        
-
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
     }
-    
-
     /* end of nav */
-
     /* link decorations */
     a:link{
         text-decoration: none;
@@ -99,16 +88,11 @@ nav li {
     top: -69px;
     left: 10px;
     z-index: -1;
-    
-
-        
 }
 /* end of line */
-
-
 .title {
     font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     text-align: center;
     list-style-type: none;
     text-decoration: none;
@@ -135,13 +119,17 @@ nav li {
     margin-left: 610px;
     margin-top: 0px;
     font-size: 20px;  
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: bold;
 }
 /* end of team photo */
 /* Open registation */
 .join {
     text-align: center;
     padding-top: 10px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
 
 }
 .box7 {
@@ -161,31 +149,35 @@ nav li {
 }
 .oct {
     float: right;
-
     margin: -70px 0px 0px 0px;
     padding: 0%;
 }
 .date {
-    font-family: 'Open Sans';
     text-align: end;
     font-size: 40px;
     margin-right: 10px;
     margin-top: -59px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: normal;
 }
 .we {
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-right: 500px;
     padding-top: 15px;
     font-size: 40px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: normal;
 
 }
 .para {
-    font-family: 'Open Sans', sans-serif;
     padding-right: 10px;
-    margin-left: 450px;
+    margin-left: 490px;
     margin-right: 450px;
     margin-top: -50px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 19px;
+    text-align: left;
+    line-height: 24px;
      
     
 }
@@ -195,15 +187,18 @@ nav li {
 .farewell {
     background: rgb(245,200,168);
     background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
-    height: 70px;
+    height: 75px;
     border-radius: 15px;
 }
 .bye {
     text-align: center;
     padding-top: 20px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 45px;
+
 }
 .box {
-    height: 400px;
+    height: 415px;
     width: 400px;
     border: solid 2px black;
     border-radius: 5px;
@@ -220,26 +215,24 @@ nav li {
     margin-top: 5px;
     border-radius: 5px;
     padding-top: 20px;
-
-
 }
 .last {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 30px;
 }
 .lorem {
-    text-align: center;
+    text-align: center justify;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 18px;
+    padding-left: 26px;
 }
- 
 /* crow */
 .crow {
     z-index: 1;
     display: block;
     margin-left: -100px;
-    margin-top: -100px;
-
-   
+    margin-top: -120px;
 }
 .box4 {
     height: 400px;
@@ -249,27 +242,29 @@ nav li {
     background: rgb(250,104,0);
     background: linear-gradient(175deg, rgba(250,104,0,1) 0%, rgba(27,29,56,1) 95%);
     margin-left: 38%;
-    margin-top: 450px;
-
+    margin-top: 470px;
 }
 h4 {
     text-align: center;
     margin-top: 30px;
-    font-size: 30px;
-    font-family: 'Open Sans', sans-serif; 
+    margin-left: 5px;
+    font-size: 40px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
-
+.bottom {
+    margin-top: -20px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 40px;
+}
 /* end of crow */
 /* music */
 .bop {
     height: 30px;
     margin-top: 25px;
     margin-bottom: 3px;
-    margin-left: 40.5%;
+    margin-left: 40.7%;
     color: #fa6800
-    
 }
-
 /* footer */
 footer {
     width: 99%;
@@ -279,23 +274,18 @@ footer {
     border-radius: 15px;
     margin-left: 9px;
     padding-top: 20px;
-
-
 }
 footer .name {
-    margin-left: 42%;
+    margin-left: 42.3%;
     margin-right:0px;
     margin-top: 0px;
     display: inline;}
-
 .youtube:hover {
     opacity: .4;
 }
-
 .insta:hover {
     opacity: .4;
 }
-
 
 .twitter:hover {
     opacity: .4;
@@ -306,8 +296,6 @@ footer .name {
     list-style-type: none;
     border: transparent;
 }
-
-
 .social li {
     display: inline-block;
     list-style-type: none;
@@ -318,7 +306,7 @@ footer .name {
  .social img{
      height: 55px;
      width: 55px;
- }
+}
 
 .insta {
     display: inline-block;

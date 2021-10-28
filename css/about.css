@@ -26,10 +26,7 @@ header h1 {
     font-size: 19px;
     margin-left: -20px;
     margin-top: 0px;
-    font-family: 'Open Sans', sans-serif;
     color: #1B1D38;
-
-
 }
 .help {
     width: 99%;
@@ -58,7 +55,6 @@ nav li {
     .button {
         float: left;     
         font-size: 29px;
-        font-family: 'Open Sans', sans-serif;
         text-align: center;
         text-decoration: none;
         border: 1px solid;
@@ -110,13 +106,14 @@ nav li {
 h1 {
     text-align: center;
     font-size: 50px;
-    font-family: 'Open Sans, sans-serif';
     color: rgb(245, 145, 108);
 }
 h2 {
     text-align: center;
     font-size: 40px;
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-top: 0px;
+    padding-bottom: 10px;
 }
 h3 {
     font-size: 40px;
@@ -125,7 +122,6 @@ h3 {
     margin-left: 0px;
 }
 p {
-    font-family: 'Open Sans';
     width: 70%;
     margin-top: 40px;
     display: block;
@@ -174,6 +170,7 @@ p {
    border: solid;
    margin-left: 20px; 
    border-radius: 15px;
+   margin-top: -30px;
 }
 .meet {
     float: left;
@@ -188,6 +185,7 @@ p {
 .meat {
     height: 100%;
     text-align: center;
+    margin-top: -30px;
     
 }
 h4 {
