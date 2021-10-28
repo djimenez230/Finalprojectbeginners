@@ -149,7 +149,7 @@ input[type=text], select, textarea {
     border: solid black;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 670px;
+    margin-left: 560px;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -164,9 +164,8 @@ input[type=text], select, textarea {
     padding: 30px;
     width: 40%;
     margin: 50px;
-    margin-top: 49px;
+    margin-top: 0px;
     resize: vertical;
-    float: left;
     border: #1B1D38 solid;
   }
 
