@@ -178,6 +178,8 @@ footer .name {
     margin-top: 0px;
     font-size: 30px;
     display: inline;
+    color: #1B1D38;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 .youtube:hover {
     opacity: .4;
