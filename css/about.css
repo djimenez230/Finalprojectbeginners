@@ -27,6 +27,9 @@ header h1 {
     margin-left: -20px;
     margin-top: 0px;
     color: #1B1D38;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 900;
+
 }
 .help {
     width: 99%;
@@ -54,21 +57,18 @@ nav li {
     
     .button {
         float: left;     
-        font-size: 29px;
+        font-size: 24px;
         text-align: center;
         text-decoration: none;
         border: 1px solid;
         background-color: #fa6800;
         border-radius: 90px;
-        height: 40px;
+        height: 46px;
         width: 130px;
-        padding: 0px 0px 0px 0px;
-        margin: -40px 10px 0px 0px;
-        
-
+        padding: 5px; 
+        margin: -50px 7px 0px 7px;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
     }
-    
-
     /* end of nav */
 
     /* link decorations */
@@ -91,22 +91,10 @@ nav li {
       a:active {
         text-decoration: none;
       }
-/* big white box */
-.box {
-    height: 1010px;
-    width: 99%;
-    background-color: #0f1237;
-    border-radius: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: -1;
-
-}
+/* header */
 h1 {
     text-align: center;
-    font-size: 50px;
-    color: rgb(245, 145, 108);
+    font-size: 50px
 }
 h2 {
     text-align: center;
@@ -137,17 +125,14 @@ p {
     height: 905px;
     float: left;
     margin-left: 10px;
-    
+    margin-bottom: 30px;
 }
-
 .maps {
     float: left;
     margin-left: 30px;
     border: #0f1237 solid;
-    border-radius: 15px;
-    
+    border-radius: 15px;   
 }
-
 .gym {
     width: 50%;
     float: right;
@@ -161,8 +146,7 @@ p {
 .takeda {
     height: 44%;
     border: solid;
-    border-radius: 15px;
-    
+    border-radius: 15px;  
 }
 .ukai {
    height: 47%;
@@ -224,13 +208,12 @@ h5 {
     padding: 6px; 
     word-spacing: -2px ;
 }
-
 /* footer */
 footer {
     width: 99%;
     height:150px;
-    margin-top:0px;
-    background-color: coral;
+    margin-top: 1px;
+    background-color: transparent;
     border-radius: 15px;
     margin-left: 9px;
     padding-top: 20px;

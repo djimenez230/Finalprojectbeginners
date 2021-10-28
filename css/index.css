@@ -41,16 +41,16 @@ nav li {
     }
     .button {
         float: left;     
-        font-size: 29px;
+        font-size: 24px;
         text-align: center;
         text-decoration: none;
         border: 1px solid;
         background-color: #fa6800;
         border-radius: 90px;
-        height: 40px;
+        height: 46px;
         width: 130px;
-        padding: 0px 0px 0px 0px;
-        margin: -40px 10px 0px 0px;
+        padding: 5px; 
+        margin: -50px 7px 0px 7px;
         font-family: 'Zen Kaku Gothic Antique', sans-serif;
     }
     /* end of nav */
@@ -187,7 +187,7 @@ nav li {
 .farewell {
     background: rgb(245,200,168);
     background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
-    height: 75px;
+    height: 95px;
     border-radius: 15px;
 }
 .bye {
@@ -198,12 +198,12 @@ nav li {
 
 }
 .box {
-    height: 415px;
+    height: 455px;
     width: 400px;
     border: solid 2px black;
     border-radius: 5px;
     float: left;
-    margin: 25px 120px 35px 100px;
+    margin: 25px 190px 35px 100px;
     background-color: blanchedalmond;
 }
 .seniors {
@@ -232,7 +232,7 @@ nav li {
     z-index: 1;
     display: block;
     margin-left: -100px;
-    margin-top: -120px;
+    margin-top: -180px;
 }
 .box4 {
     height: 400px;
@@ -242,7 +242,7 @@ nav li {
     background: rgb(250,104,0);
     background: linear-gradient(175deg, rgba(250,104,0,1) 0%, rgba(27,29,56,1) 95%);
     margin-left: 38%;
-    margin-top: 470px;
+    margin-top: 510px;
 }
 h4 {
     text-align: center;
@@ -263,14 +263,13 @@ h4 {
     margin-top: 25px;
     margin-bottom: 3px;
     margin-left: 40.7%;
-    color: #fa6800
 }
 /* footer */
 footer {
     width: 99%;
     height:150px;
     margin-top:0px;
-    background-color: coral;
+    background-color: #E9833C;
     border-radius: 15px;
     margin-left: 9px;
     padding-top: 20px;
