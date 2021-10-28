@@ -119,6 +119,7 @@ nav li {
     height: 70px;
     background: rgb(245,200,168);
     background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
+    border-radius: 15px;
 }
 /* team Photo */
 .team img {
@@ -149,6 +150,7 @@ nav li {
     background-color: blanchedalmond;
     border-radius: 15px;
     margin-top: 10px;
+    z-index: -1;
 }
 .need {
     float: left;
@@ -157,16 +159,33 @@ nav li {
     border-radius: 15px;
     border: 4px #1B1D38 solid;
 }
+.oct {
+    float: right;
+
+    margin: -70px 0px 0px 0px;
+    padding: 0%;
+}
+.date {
+    font-family: 'Open Sans';
+    text-align: end;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: -59px;
+}
 .we {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    margin-right: 49px;
-    padding-top: 45px;
+    margin-right: 500px;
+    padding-top: 15px;
+    font-size: 40px;
 
 }
 .para {
     font-family: 'Open Sans', sans-serif;
-    padding-right: 100px;
+    padding-right: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: -50px;
      
     
 }
@@ -189,7 +208,7 @@ nav li {
     border: solid 2px black;
     border-radius: 5px;
     float: left;
-    margin: 5px 99px 5px 68px;
+    margin: 25px 190px 35px 100px;
     background-color: blanchedalmond;
 }
 .seniors {
@@ -248,14 +267,76 @@ h4 {
     height: 30px;
     margin-top: 25px;
     margin-bottom: 3px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40.5%;
     color: #fa6800
     
 }
-.box6 {
+
+/* footer */
+footer {
     width: 99%;
-    height: 100px;
-    background-color: #fa6800;
+    height:150px;
+    margin-top:0px;
+    background-color: coral;
+    border-radius: 15px;
+    margin-left: 9px;
+    padding-top: 20px;
+
+
+}
+footer .name {
+    margin-left: 42%;
+    margin-right:0px;
+    margin-top: 0px;
+    display: inline;}
+
+.youtube:hover {
+    opacity: .4;
+}
+
+.insta:hover {
+    opacity: .4;
+}
+
+
+.twitter:hover {
+    opacity: .4;
+}
+.social {
+    display: inline;
+    margin-top: 100%;
+    list-style-type: none;
+    border: transparent;
+}
+
+
+.social li {
+    display: inline-block;
+    list-style-type: none;
+    object-position: center;
+    margin-left: 22px;
+}
+
+ .social img{
+     height: 55px;
+     width: 55px;
+ }
+
+.insta {
+    display: inline-block;
+    width: 50px;
+    margin-left: auto;
+}
+.social ul  {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent;
+}
+
+.social li .youtube {
+    height: 60px;
+    width: 60px;
+    border: transparent;
 }

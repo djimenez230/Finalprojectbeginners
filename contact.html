@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/contact.css">
     <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="color" id="color">
   <header>
-    <img src="/Pictures/Logo.png">
+   <a href="https://haikyuu.fandom.com/wiki/Karasuno_High">
+    <img  src="/Pictures/Logo (1).png ">
+   </a>
   <h1> Karasuno Volleyball</h1> 
   </header>
   </div>
@@ -18,19 +24,59 @@
     <!-- nav bar -->
   <nav class="nav">
     <ul>
-    <li><a href="css/index.css" target="blank" class="button">Home</a></li>
-    <li><a href="css/about.css"class="button">About</a></li>
-    <li><a href="css/contact.css"class="button">Sign Up</a></li>
+      <li><a href="index.html" class="button">Home</a></li>
+      <li><a href="about.html"class="button">About</a></li>
+      <li><a href="contact.html"class="button">Sign Up</a></li>
     </ul>
+  </nav>
   </nav>
    <!-- I NEED A BOX -->
    <div class="help">
   </div>
   <br>
+  <h1>Contact Us</h1>
   <div class="box">
+    <div class="vid">
+      <iframe src="https://www.youtube.com/embed/QlNrD5U8F2I" width="900" height="720" border-radius="15px" frameborder="0"></iframe></div>
+    <div class="container">
+      <form action="action_page.php">
+        <h2>Interested? Sign Up Now</h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
     
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="Position">Position Interested in</label>
+        <select id="Position" name="Position">
+          <option value="Setter">Setter</option>
+          <option value="Outside Hitter">Outside Hitter</option>
+          <option value="Opposite Hitter">Opposite Hitter</option>
+          <option value="Middle Blocker">Middle Blocker</option>
+          <option value="Libero">Libero</option>
+          <option value="Denfensive Specialist">Denfensive Specialist</option>
+          <option value="Serve Specialist">Server Specialist</option>
+          <option value="Other">Other</option>
+        </select>
+    
+        <label for="subject">Tell Us Your Passion</label>
+        <textarea id="subject" name="subject" placeholder="Must be able to yell it for everyone to hear..." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+        </div>
+    
+      </form>
+    </div>
   </div>
   <footer>
-  </footer>
+    <h1 class="name">Diego A Jimenez</h1>
+    <div class="social">
+      <ul class="list">
+      <li><a href="https://www.instagram.com/haikyuuu.official/?hl=en"><img class="insta" src="/Pictures/instagram-icon-black.jpg" alt="instagram logo"></a></li>          
+      <li><a href="https://twitter.com/haikyu_en?lang=en"><img class="twitter" src="/Pictures/twitter.png" alt="twitter logo"></a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLRe9ARNnYSY5Uhp9L_x1KaLUFFs0XWwzK"><img class="youtube" src="/Pictures/youtube.png" alt="youtube logo"></a></li>
+      </ul>
+    </div>
+   </footer>
 </body>
 </html>
