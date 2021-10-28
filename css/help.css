@@ -31,7 +31,7 @@ nav li {
     text-emphasis: none;
     }
     nav {
-        margin-top: 200px;
+        margin-top: 90px;
         margin-left: 70%;
     }
     .button {
@@ -87,7 +87,7 @@ nav li {
 .fly {
     width: 95%;
     height: 350px;
-    margin-top: 0px;
+    margin-top: -50px;
     margin-left: 45px;
     border-radius: 15px;
     margin-bottom: 100px;
