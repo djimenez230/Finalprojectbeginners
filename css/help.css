@@ -89,10 +89,18 @@ nav li {
     z-index: -1;
 }
 /* end of line */
+/* fly */
+.fly {
+    width: 99%;
+    height: 350px;
+    margin-top: -80px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
 
 /* adding a big white box */
 .box {
-    height: 990px;
+    height: 800px;
     width:95%;
     border: transparent 1px;
     border-radius: 3px;
