@@ -276,10 +276,13 @@ footer {
     padding-top: 20px;
 }
 footer .name {
-    margin-left: 42.3%;
+    margin-left: 41.5%;
     margin-right:0px;
     margin-top: 0px;
-    display: inline;}
+    display: inline;
+    color: #090b1a;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
 .youtube:hover {
     opacity: .4;
 }
