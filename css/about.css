@@ -92,20 +92,23 @@ nav li {
         text-decoration: none;
       }
 /* header */
-h1 {
+.about {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 { 
+    font-size: 40px;
     text-align: center;
-    font-size: 50px
+    margin-top: 400px;
+
+
 }
 h2 {
-    text-align: center;
     font-size: 40px;
-    margin-right: 20px;
     margin-top: 0px;
-    padding-bottom: 10px;
-}
-h3 {
-    font-size: 40px;
-    margin-top: 400px;
     text-align: center;
     margin-left: 0px;
 }
@@ -116,6 +119,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 .column {
     border: 1px solid black;
@@ -129,17 +133,18 @@ p {
 }
 .maps {
     float: left;
+    margin-top: 20px;
     margin-left: 30px;
     border: #0f1237 solid;
     border-radius: 15px;   
 }
 .gym {
-    width: 50%;
+    width: 46%;
     float: right;
     border-radius: 10px;
     margin-right: 20px;
     padding-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: #0f1237 solid;
 }
 /* meet the coaches images */
@@ -147,6 +152,7 @@ p {
     height: 44%;
     border: solid;
     border-radius: 15px;  
+    margin-top: 25px;
 }
 .ukai {
    height: 47%;
@@ -164,12 +170,13 @@ p {
     border-radius: 10px;
     padding-left: 50px;
     padding-right: 0px;    
-
 }
 .meat {
     height: 100%;
     text-align: center;
     margin-top: -30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
     
 }
 h4 {
@@ -177,13 +184,15 @@ h4 {
     margin-top: 0px;
     text-align: center;
     padding-right: 50px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
 }
 h5 {
     font-size: 40px;
     margin-top: 0px;
     text-align: center;
     margin-left: 20px;
-
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .box2 {
@@ -217,8 +226,6 @@ footer {
     border-radius: 15px;
     margin-left: 9px;
     padding-top: 20px;
-
-
 }
 footer .name {
     margin-left: 41.5%;
@@ -227,6 +234,7 @@ footer .name {
     display: inline;
     font-size: 37px;
     color: #1B1D38;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 .youtube:hover {

@@ -102,7 +102,7 @@ nav li {
     width: 99%;
     height: 70px;
     background: rgb(245,200,168);
-    background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
+    background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 99%);
     border-radius: 15px;
 }
 /* team Photo */
@@ -186,7 +186,7 @@ nav li {
 /* farewell senior appreciation  */
 .farewell {
     background: rgb(245,200,168);
-    background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 73%);
+    background: linear-gradient(106deg, rgba(245,200,168,1) 0%, rgba(43,47,103,1) 99%);
     height: 95px;
     border-radius: 15px;
 }
@@ -203,7 +203,7 @@ nav li {
     border: solid 2px black;
     border-radius: 5px;
     float: left;
-    margin: 25px 190px 35px 100px;
+    margin: 25px 120px 35px 105px;
     background-color: blanchedalmond;
 }
 .seniors {
@@ -241,7 +241,7 @@ nav li {
     border-radius: 199px;
     background: rgb(250,104,0);
     background: linear-gradient(175deg, rgba(250,104,0,1) 0%, rgba(27,29,56,1) 95%);
-    margin-left: 38%;
+    margin-left: 39%;
     margin-top: 510px;
 }
 h4 {
@@ -262,7 +262,7 @@ h4 {
     height: 30px;
     margin-top: 25px;
     margin-bottom: 3px;
-    margin-left: 40.7%;
+    margin-left: 42%;
 }
 /* footer */
 footer {
@@ -275,7 +275,7 @@ footer {
     padding-top: 20px;
 }
 footer .name {
-    margin-left: 41.5%;
+    margin-left: 42.5%;
     margin-right:0px;
     margin-top: 0px;
     display: inline;
@@ -302,7 +302,7 @@ footer .name {
     display: inline-block;
     list-style-type: none;
     object-position: center;
-    margin-left: 22px;
+    margin-left: 23px;
 }
 
  .social img{
