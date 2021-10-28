@@ -286,7 +286,10 @@ footer .name {
     margin-left: 42%;
     margin-right:0px;
     margin-top: 0px;
-    display: inline;}
+    display: inline;
+    color: #1B1D38;
+}
+    
 
 .youtube:hover {
     opacity: .4;
