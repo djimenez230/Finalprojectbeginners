@@ -50,7 +50,7 @@ nav li {
     text-emphasis: none;
     }
     nav {
-        margin-top: 200px;
+        margin-top: 90px;
         margin-left: 70%;
 
     }
@@ -98,6 +98,7 @@ nav li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -41px;
 }
 h3 { 
     font-size: 40px;
